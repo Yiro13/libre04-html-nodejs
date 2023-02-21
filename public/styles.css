@@ -1,0 +1,89 @@
+body{
+    font-family: 'sans serif';
+    
+    background: conic-gradient(
+    from 45deg,
+    rgb(145, 129, 38) 0,
+    rgb(82, 71, 12) 90deg,
+    black 90deg,
+    black 180deg,
+    #1a190d 180deg,
+    #121213 270deg,
+    #202020 270deg,
+    #3b3c3d 360deg
+    );
+    background-size: 1em 1em;
+    height: 100vh;
+
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+#logo {
+    max-width: 200px;
+}
+
+#Multi-chat{
+    text-align: center;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #000000;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+#ventana_chat{
+    height: 400px;
+    overflow: auto;
+    background: #4e4a4a;
+}
+
+#salida p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid rgb(145, 129, 38);
+    color: rgb(228, 215, 215);
+}
+
+#feedback p{
+    color: rgb(228, 215, 215);
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#salida strong{
+    color:rgb(145, 129, 38);
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: rgb(228, 215, 215);
+    border: 0;
+    display: block;
+    width: 100%;
+    background: rgb(228, 215, 215);
+    border-bottom: 3px solid rgb(82, 71, 12);
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #2c9731;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
